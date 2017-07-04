@@ -1,0 +1,38 @@
+Package: tidyweb
+Type: Package
+Title: Easily Install and Load Modern Web-Scraping Packages
+Version: 0.1.0
+Date: 2017-07-04
+Author: Bob Rudis (bob@rud.is)
+Maintainer: Bob Rudis <bob@rud.is>
+Description: Scraping the modern web requires having many tools in one's toolbox
+    and the 'tidyverse' only enables easy installation and loading of a few, core
+    ones. `tidyweb` bundles a more complete list of scraping tools to make it easier
+    to both install and use them.
+URL: https://github.com/hrbrmstr/tidyweb
+BugReports: https://github.com/hrbrmstr/tidyweb/issues
+License: MIT + file LICENSE
+Suggests:
+    testthat,
+    covr
+Depends:
+    R (>= 3.2.0)
+Imports:
+    curl,
+    jsonlite,
+    httr,
+    xml2,
+    rvest,
+    purrr,
+    dplyr,
+    stringi,
+    gdns,
+    urltools,
+    iptools,
+    seleniumPipes,
+    HARtools,
+    xslt,
+    V8,
+    webreadr,
+    openssl
+RoxygenNote: 6.0.1
