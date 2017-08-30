@@ -17,4 +17,5 @@
 #' @importFrom V8 v8
 #' @importFrom webreadr read_aws
 #' @importFrom openssl md5
+#' @importFrom splashr killall_splash
 NULL

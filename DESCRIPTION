@@ -1,8 +1,8 @@
 Package: tidyweb
 Type: Package
 Title: Easily Install and Load Modern Web-Scraping Packages
-Version: 0.1.0
-Date: 2017-07-04
+Version: 0.1.1
+Date: 2017-08-30
 Author: Bob Rudis (bob@rud.is)
 Maintainer: Bob Rudis <bob@rud.is>
 Description: Scraping the modern web requires having many tools in one's toolbox
@@ -34,5 +34,6 @@ Imports:
     xslt,
     V8,
     webreadr,
-    openssl
+    openssl,
+    splashr
 RoxygenNote: 6.0.1
